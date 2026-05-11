@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tools by Allless</title>
+    <meta name="description" content="Free, open-source tools for agile teams and developers." />
+    <meta name="google-site-verification" content="Ac2jLu6jiBDoo5jGrSE-M2KAsKOfVJynoP5wHv2dOLw" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://allless.github.io/" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://allless.github.io/" />
+    <meta property="og:title" content="Tools by Allless" />
+    <meta property="og:description" content="Free, open-source tools for agile teams and developers." />
+
+    <style>
+      :root {
+        color-scheme: light dark;
+        --fg: #1a1a1a;
+        --fg-muted: #555;
+        --bg: #fafafa;
+        --card-bg: #fff;
+        --border: #e5e5e5;
+        --accent: #4f46e5;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --fg: #eee;
+          --fg-muted: #aaa;
+          --bg: #111;
+          --card-bg: #1a1a1a;
+          --border: #2a2a2a;
+          --accent: #818cf8;
+        }
+      }
+      * { box-sizing: border-box; }
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+        background: var(--bg);
+        color: var(--fg);
+        max-width: 720px;
+        margin: 0 auto;
+        padding: 4rem 1.5rem;
+        line-height: 1.6;
+      }
+      header { margin-bottom: 3rem; }
+      h1 { font-size: 2.25rem; margin: 0 0 0.5rem; }
+      header p { color: var(--fg-muted); margin: 0; }
+      .tools { display: grid; gap: 1rem; }
+      .tool {
+        display: block;
+        padding: 1.25rem 1.5rem;
+        background: var(--card-bg);
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        text-decoration: none;
+        color: inherit;
+        transition: border-color 0.15s, transform 0.15s;
+      }
+      .tool:hover { border-color: var(--accent); transform: translateY(-1px); }
+      .tool h2 { font-size: 1.15rem; margin: 0 0 0.25rem; color: var(--accent); }
+      .tool p { margin: 0; color: var(--fg-muted); font-size: 0.95rem; }
+      footer { margin-top: 4rem; color: var(--fg-muted); font-size: 0.875rem; }
+      footer a { color: inherit; }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Tools</h1>
+      <p>Free, open-source tools for agile teams and developers.</p>
+    </header>
+
+    <main class="tools">
+      <a class="tool" href="/poker-planning/">
+        <h2>Poker Planning</h2>
+        <p>Real-time scrum estimation tool. No sign-up required.</p>
+      </a>
+    </main>
+
+    <footer>
+      <p>By <a href="https://github.com/Allless">Allless</a> · <a href="https://github.com/Allless?tab=repositories">Source</a></p>
+    </footer>
+  </body>
+</html>
