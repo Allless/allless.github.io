@@ -65,6 +65,9 @@
       .tool:hover { border-color: var(--accent); transform: translateY(-1px); }
       .tool h2 { font-size: 1.15rem; margin: 0 0 0.25rem; color: var(--accent); }
       .tool p { margin: 0; color: var(--fg-muted); font-size: 0.95rem; }
+      .careful { margin-top: 2.5rem; }
+      .careful > h2 { font-size: 1rem; margin: 0 0 0.25rem; }
+      .careful > p { color: var(--fg-muted); margin: 0 0 1rem; font-size: 0.95rem; }
       footer { margin-top: 4rem; color: var(--fg-muted); font-size: 0.875rem; }
       footer a { color: inherit; }
     </style>
@@ -91,6 +94,17 @@
         <p>Compress JPEG, PNG, WebP, AVIF, HEIC, and GIF images right in your browser. No upload, no sign-up.</p>
       </a>
     </main>
+
+    <section class="careful">
+      <h2>Use with care</h2>
+      <p>These tools touch money. Only use them from this site, never from a link someone sent you.</p>
+      <div class="tools">
+        <a class="tool" href="/funds-finder/">
+          <h2>Funds Finder</h2>
+          <p>Sent ETH, USDC or another coin to your Tether Wallet and it doesn't show? Check your address and move it out. Checking needs only the address; moving needs your recovery phrase. Not affiliated with Tether.</p>
+        </a>
+      </div>
+    </section>
 
     <footer>
       <p>By <a href="https://github.com/Allless">Allless</a> · <a href="https://github.com/Allless?tab=repositories">Source</a></p>
